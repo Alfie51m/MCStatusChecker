@@ -1,0 +1,5 @@
+name: MCStatusChecker
+version: ${version}
+main: com.alfie51m.mCStatusChecker.MCStatusChecker
+api-version: '1.21'
+softdepend: [PlaceholderAPI]

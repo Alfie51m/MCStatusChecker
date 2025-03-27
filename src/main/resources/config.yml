@@ -1,0 +1,4 @@
+placeholder: "%essentials_afk%"
+expected_result: "yes"
+success_message: "&a{player} is AFK!"
+failure_message: "&c{player} is not AFK." # No message will be sent if this is set to "disabled"

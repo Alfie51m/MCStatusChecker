@@ -3,3 +3,13 @@ version: ${version}
 main: com.alfie51m.mCStatusChecker.MCStatusChecker
 api-version: '1.21'
 softdepend: [PlaceholderAPI]
+
+commands:
+  mcstatuschecker:
+    description: Reloads the MCStatusChecker configuration.
+    usage: /mcstatuschecker reload
+    permission: mcstatuschecker.reload
+permissions:
+  mcstatuschecker.reload:
+    description: Allows player to reload the plugin configuration.
+    default: op

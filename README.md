@@ -5,10 +5,19 @@
 ## Example Config
 
 ```yaml
-placeholder: "%essentials_afk%"
-expected_result: "yes"
-success_message: "&a{player} is AFK!"
-failure_message: "&c{player} is not AFK." # No message will be sent if this is set to "disabled"
+verbose: true # Set to false to disable detailed logs
+
+afk_check:
+  placeholder: "%essentials_afk%"
+  expected_result: "yes"
+  success_message: "&a{player} is AFK!"
+  failure_message: "&c{player} is not AFK." # Set to "disabled" to not send a message on false output
+
+placeholder2:
+  placeholder: "%otherplugin_someplaceholder%"
+  expected_result: "true"
+  success_message: "&a{player} is Here!"
+  failure_message: "disabled" # No failure message for this placeholder
 ```
 
 ## Installation
